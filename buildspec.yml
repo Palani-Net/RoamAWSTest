@@ -3,14 +3,18 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm install
+      - echo Installing npm dependencies
       - npm install -g vue-cli
+      - echo Installed vue cli
       - npm install -g quasar-cli
+      - echo installed quasar cli
     finally:
       - echo Install commands over
       
   pre_build:
     commands:
+      - echo Installing npm install
+      - npm install
       
     finally:
       - echo This always runs even if the login command fails 
