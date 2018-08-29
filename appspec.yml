@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: /
+  - source: dist\pwa-mat\
     destination: C:\AWSRoamTest
 #hooks:
  # BeforeInstall:
