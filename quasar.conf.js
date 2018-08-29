@@ -26,9 +26,9 @@ module.exports = function (ctx) {
       vueRouterMode: 'history',
       env: ctx.dev
       ? { // so on dev we'll have
-      //API: JSON.stringify('http://localhost:1272/api/')
+      API: JSON.stringify('http://localhost:1272/api/')
       //API: JSON.stringify('https://roam.dev.dxcbps.com/roamapi/api/')
-      API: JSON.stringify('https://keys.dev.dxcbps.com/roamapi/api/')
+      //API: JSON.stringify('https://keys.dev.dxcbps.com/roamapi/api/')
 
     }
     : { // and on build (production):
