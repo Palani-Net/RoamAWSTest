@@ -30,4 +30,5 @@ phases:
 artifacts:
   files:
     - dist/pwa-mat/*
+    - appspec.yml
   discard-paths: yes
